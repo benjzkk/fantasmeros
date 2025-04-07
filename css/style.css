@@ -1,4 +1,3 @@
-/* Estilos generales */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #05103d;
@@ -26,7 +25,6 @@ h2 {
     padding-bottom: 5px;
 }
 
-/* Secciones */
 .section {
     background-color: rgba(47, 49, 54, 0.7);
     padding: 20px;
@@ -42,7 +40,6 @@ h2 {
     margin: 10px 0;
 }
 
-/* Botones */
 .buttons {
     display: flex;
     flex-wrap: wrap;
