@@ -5,9 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>𝗙𝗮𝗻𝘁𝗮𝘀𝗺𝗲𝗿𝗼𝘀・Chat & Gaming</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      #google_translate_element {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 1000;
+      }
+      .goog-te-gadget-icon {
+        display: none !important;
+      }
+      .goog-te-combo {
+        background-color: #4E5D94;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 5px;
+        cursor: pointer;
+      }
+    </style>
     <link rel="icon" href="https://i.imgur.com/eD04PWt.gif" type="image/gif">
   </head>
   <body>
+    <div id="google_translate_element"></div>
     <div class="container">
       <div class="section">
         <h2>📜 Normas Generales</h2>
@@ -28,5 +48,15 @@
         </div>
       </div>
     </div>
+    <script>
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+          pageLanguage: 'es',
+            includedLanguages: 'en,fr,pt,de,ja',
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+          }, 'google_translate_element');
+      }
+    </script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   </body>
 </html>
