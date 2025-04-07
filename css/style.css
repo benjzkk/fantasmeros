@@ -1,0 +1,67 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #05103d;
+    color: #dcddde;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #7289da;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #7289da;
+    border-bottom: 2px solid #7289da;
+    padding-bottom: 5px;
+}
+
+/* Secciones */
+.section {
+    background-color: rgba(47, 49, 54, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    backdrop-filter: blur(5px);
+}
+
+.norma {
+    background-color: rgba(64, 68, 75, 0.5);
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Botones */
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.btn {
+    background-color: #7289da;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: #677bc4;
+    transform: translateY(-2px);
+}
