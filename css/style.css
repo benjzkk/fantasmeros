@@ -43,9 +43,9 @@ h2 {
 .buttons {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 12px;
     justify-content: center;
-    margin: 30px 0;
+    margin-top: 20px;
 }
 
 .btn {
@@ -61,4 +61,21 @@ h2 {
 .btn:hover {
     background-color: #435492;
     transform: translateY(-2px);
+}
+
+.emoji-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    transition: all 0.3s;
+}
+
+.btn:hover .emoji-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
 }
