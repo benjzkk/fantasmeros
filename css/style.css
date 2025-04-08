@@ -8,9 +8,9 @@ body {
 }
 
 .container {
-    position: relative;
     max-width: 800px;
-    margin: 20px auto;
+    margin: 0 auto;
+    padding: 20px
 }
 
 h1 {
