@@ -8,9 +8,13 @@ body {
 }
 
 .container {
+    position: relative; 
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    background: #2F3136;
+    border-radius: 8px;
+    margin-top: 40px;
 }
 
 h1 {
@@ -106,21 +110,29 @@ h2 {
 }
 
 .menu-button {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    background-color: #4E5D94;
+    position: absolute; 
+    top: -15px;        
+    left: -15px;        
+    background: #4E5D94;
     color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
+    padding: 8px 15px;
+    border-radius: 20px; 
     text-decoration: none;
     font-weight: bold;
     display: flex;
     align-items: center;
-    gap: 8px;
-    z-index: 1000;
+    gap: 6px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+    z-index: 1;        
+    border: 2px solid #3A4A7E;
 }
 
 .menu-button:hover {
-    background-color: #3A4A7E;
+    background: #3A4A7E;
+    transform: translateY(-2px);
+}
+
+.menu-button svg {
+    width: 16px;
+    height: 16px;
 }
