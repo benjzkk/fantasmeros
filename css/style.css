@@ -104,3 +104,23 @@ h2 {
     padding: 5px;
     cursor: pointer;
 }
+
+.menu-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #4E5D94;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 1000;
+}
+
+.menu-button:hover {
+    background-color: #3A4A7E;
+}
