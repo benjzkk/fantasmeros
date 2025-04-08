@@ -84,3 +84,23 @@ h2 {
     background-color: rgba(0, 0, 0, 0.5);
     transform: scale(1.1);
 }
+
+#google_translate_element {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+.goog-te-gadget-icon {
+    display: none !important;
+}
+
+.goog-te-combo {
+    background-color: #4E5D94;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+}
