@@ -1,0 +1,19 @@
+:root {
+    --discord-blurple: #5865F2;
+    --discord-dark: #2C2F33;
+    --discord-light-gray: #dcddde;
+    --discord-white: #FFFFFF;
+    --font-primary: 'Catamaran', sans-serif;
+    --font-display: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: var(--font-primary);
+    background: var(--discord-dark);
+    color: var(--discord-light-gray);
+}
+
+h1, h2, h3 {
+    font-family: var(--font-display);
+    color: var(--discord-white);
+}
